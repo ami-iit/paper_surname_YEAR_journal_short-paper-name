@@ -9,6 +9,7 @@ easily reproduce the results presented in the paper.
 
 Each repository paper should contain:
 * [`README.md`](README.md): entry point for the paper content, with links to the paper itself, the video description of the paper, the code of the paper and any other related content.
+* [`CITATION.cff`](CITATION.cff): metadata necessary for GitHub to generate the "Cite this repository" link, see [GitHub docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files#other-citation-files) for more info. Note that it is important to use the `preferred-citation` field to ensure that actual doi of the published paper is used for citations.
 
 ## How To Create a New Paper Repository
 
