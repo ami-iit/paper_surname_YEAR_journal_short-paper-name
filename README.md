@@ -1,4 +1,4 @@
-*This repo represents an example of paper repo.*
+*This repo represents an example of paper repo. For documentation on the example itself, see the [`example_details.md`](example_details.md) file.*
 
 <h1 align="center">
   Paper Name
