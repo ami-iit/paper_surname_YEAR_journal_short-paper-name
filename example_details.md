@@ -10,6 +10,10 @@ easily reproduce the results presented in the paper.
 Each repository paper should contain:
 * [`README.md`](README.md): entry point for the paper content, with links to the paper itself, the video description of the paper, the code of the paper and any other related content.
 
+## How To Create a New Paper Repository
+
+To create a new paper repository, one can start by creating (or asking to create) in the `ami-iit` repository a repository with the name in the format `paper_surname_YEAR_journal_short-paper-name`, and copy in it the files from this example, deleting the `example_details.md` file and inserting the specific data of the paper.
+
 ## Licenses
 
 For papers published in the Artificial Mechanical Intelligence, the license that we use are:
