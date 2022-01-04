@@ -27,5 +27,5 @@ However, the preferred license could be different and is tipically selected on a
 Note, older repos may not be respect all guidelines or indication that are indicated in this example.
 
 ### 2021 
-
+* [`romualdi-2021-ral-soft_terrain_walking`](https://github.com/ami-iit/romualdi-2021-ral-soft_terrain_walking)
 * [`tirupachuri-2021-access-estimation_payload_stresses`](https://github.com/ami-iit/tirupachuri-2021-access-estimation_payload_stresses)
