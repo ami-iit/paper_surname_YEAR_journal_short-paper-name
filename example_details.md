@@ -23,6 +23,19 @@ For papers published in the Artificial Mechanical Intelligence, the license that
 
 However, the preferred license could be different and is tipically selected on a case by case basis.
 
+## FAQs
+
+### It is necessary to commit all the software that was developed for a given research in the paper repository?
+
+No, the paper repo is just meant to host the code strictly related to the results presented in the paper.
+
+If you developed some software that is already in reusable form (such as a Python package, a C++/CMake package, a MATLAB library) that software
+should be published in a different repository, and used as any other dependency. In particular, as any other dependency the installation section of the README
+should document the **exact version of the dependency used in the paper**, to avoid that in the future users get different results due to a different version of some dependencies, including your own reusable code. 
+
+The basic idea is that reusable code is meant to change over time, get new features, adapted to work on more modern operating systems, while 
+the code in a paper repository is meant to **reproduce exactly the results presented in the associated paper**.
+
 ## Example of Paper Repositories from the past
 
 Note, older repos may not be respect all guidelines or indication that are indicated in this example.
