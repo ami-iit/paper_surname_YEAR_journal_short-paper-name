@@ -39,7 +39,7 @@ If you find the work useful, please consider citing:
 
 ```bibtex
 @ARTICLE{ajae/aaq063,
-  author={Author1, Alfred and Author2, Bill},
+  author={Author1, Antony and Author2, Beatrice},
   journal={Journal},
   title={Paper Tile},
   year={2021},
