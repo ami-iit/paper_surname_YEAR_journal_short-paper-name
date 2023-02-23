@@ -23,6 +23,55 @@ For papers published in the Artificial Mechanical Intelligence, the license that
 
 However, the preferred license could be different and is tipically selected on a case by case basis.
 
+## Reproducible Installation
+
+In general, it is always a good idea to attach to any experimental results the precise version of the software that you used to obtained those results, for example by running https://github.com/ami-iit/log-installed-software. To ensure that other people are able to run your software, it is also useful in general to compile the installation instructions in a way that is **reproducible**, i.e. install the same version of the software also in the future.
+
+Depending on how you install software, how you implement reproducible installation is different. In the following, we list some examples:
+
+### apt-based installation
+
+If you have some dependencies installed via `apt`, for example:
+~~~
+sudo apt install python3-opencv
+~~~
+there is no need to explicitly specify the version of the package you used, as long as clearly document the distribution and its version (for example, Ubuntu 20.04) that you used to run the software. Even better, you can also prepare a Docker image that runs that distribution to simplify the use of the software from people in the future that will use more recent distributions.
+
+### conda-based installation
+
+If you are install some dependencies via `mamba`, for example:
+~~~
+mamba install opencv
+~~~
+the easiest way to make this installation reproducible is to specify the version of opencv to install, i.e.:
+~~~
+mamba install opencv==4.7.0
+~~~
+
+If you are using an [environment.yml file](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually), you should pin the version in the environment file, for example:
+
+~~~
+name: paperenv
+channels:
+  - conda-forge
+dependencies:
+  - opencv==4.7.0
+~~~
+
+### pip-based installation
+
+If you are install some dependencies via `pip`, for example:
+~~~
+pip install opencv
+~~~
+the easiest way to make this installation reproducible is to specify the version of opencv to install, i.e.:
+~~~
+pip install opencv==4.7.0
+~~~
+
+If you installing your dependencies via a `requirements.txt` or `setup.cfg`, you can pin the version even there.
+
+
 ## FAQs
 
 ### It is necessary to commit all the software that was developed for a given research in the paper repository?
