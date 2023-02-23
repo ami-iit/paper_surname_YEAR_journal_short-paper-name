@@ -33,6 +33,12 @@ https://user-images.githubusercontent.com/6505998/134696331-6335943b-cd03-41fc-8
 
 _Description of how to install the software and run the software to produce the plots and images in the paper. Both the installation process and the processing run should require as less user input as possible (ideally, none)._
 
+_Ideally the installation should be reproducible also in the future. Some basic guidelines to do this are:_
+ 
+- _If you are using dependencies provided by apt, specify the stable apt distribution you used for your tests,_
+- _if you are using a rolling release distro such as PyPI or conda-forge, pin all your dependencies, i.e. explicitly specify their versions,_
+- _if you download a dependency as a git repo, specify the tag or commit to use_
+
 ### Citing this work
 
 If you find the work useful, please consider citing:
