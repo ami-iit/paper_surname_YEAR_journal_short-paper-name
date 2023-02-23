@@ -39,6 +39,8 @@ _Ideally the installation should be reproducible also in the future. Some basic 
 - _if you are using a rolling release distro such as PyPI or conda-forge, pin all your dependencies, i.e. explicitly specify their versions,_
 - _if you download a dependency as a git repo, specify the tag or commit to use_
 
+_For more info, check [the documentation available in this repo](example_details.md#reproducible-installation)._
+
 ### Citing this work
 
 If you find the work useful, please consider citing:
